@@ -14,7 +14,8 @@ namespace TrackMateBackend.Static
             DateTime now = new DateTime();
 
             //var filePath = @"C:\inetpub\wwwroot\backend-Test\BizTrack\ExceptionLogs.txt";
-            var filePath = @"C:\Users\senul\Desktop\Office Assignment\As 07(TrackMate)\WebApplication1\ErrorLog\ExceptionLogs.txt";
+            //var filePath = @"C:\Users\senul\Desktop\Office Assignment\As 07(TrackMate)\WebApplication1\ErrorLog\ExceptionLogs.txt";
+            var filePath = @"C:\Users\senul\Desktop\Office Assignment\trackmate backend github\trackmate-backend\ErrorLog\ExceptionLogs.txt";
 
             string message = now.ToString("MM/dd/yyyy HH:mm:ss") + " ~ " + methodName + " ~ " + exceptionMsg + ";";
 
