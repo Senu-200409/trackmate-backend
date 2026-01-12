@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllSchoolDetails(SchoolDetailsRequestApi requestAPI);
         Response GetSchoolDetailsBySchoolID(SchoolDetailsRequestApi requestAPI);
         Response PutSchoolDetails(SchoolDetailsRequestApi requestAPI);
-        Response UpdateSchoolStatus(SchoolDetailsRequestApi requestAPI);
+       // Response UpdateSchoolStatus(SchoolDetailsRequestApi requestAPI);
     }
 }
