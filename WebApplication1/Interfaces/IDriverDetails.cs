@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllDriverDetails(DriverDetailsRequestApi requestAPI);
         Response GetDriverDetailsByDriverID(DriverDetailsRequestApi requestAPI);
         Response PutDriverDetails(DriverDetailsRequestApi requestAPI);
-        Response UpdateDriverStatus(DriverDetailsRequestApi requestAPI);
+       // Response UpdateDriverStatus(DriverDetailsRequestApi requestAPI);
     }
 }

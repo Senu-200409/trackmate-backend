@@ -56,10 +56,10 @@ namespace TrackMateBackend.Controllers
         }
 
         [HttpPost]
-        public ActionResult UpdateDriverStatus(DriverDetailsRequestApi requestAPI)
-        {
-            var result = _driverdetails.UpdateDriverStatus(requestAPI);
-            return Json(result, JsonRequestBehavior.AllowGet);
-        }
+        //public ActionResult UpdateDriverStatus(DriverDetailsRequestApi requestAPI)
+        //{
+        //    var result = _driverdetails.UpdateDriverStatus(requestAPI);
+        //    return Json(result, JsonRequestBehavior.AllowGet);
+        //}
     }
 }
