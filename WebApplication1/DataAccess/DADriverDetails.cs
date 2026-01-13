@@ -56,9 +56,11 @@ namespace TrackMateBackend.DataAccess
 
                             DriverID = row["tdd_driver_id"].ToString(),
                             UserID = row["tdd_user_id"].ToString(),
-                            SchoolID = row["tdd_school_id"].ToString(),
+                           // SchoolID = row["tdd_school_id"].ToString(),
                             Name = row["tdd_name"].ToString(),
                             PhoneNo = row["tdd_phone_no"].ToString(),
+                            LicenseNo = row["tdd_license_no"].ToString(),
+                            LicenseType = row["tdd_license_type"].ToString(),
                             Status = row["tdd_status"].ToString(),
                             CreateDate = row["tdd_create_date"].ToString(),
                             CreatedBy = row["tdd_created_by"].ToString(),
@@ -101,9 +103,11 @@ namespace TrackMateBackend.DataAccess
                         {
                             DriverID = row["tdd_driver_id"].ToString(),
                             UserID = row["tdd_user_id"].ToString(),
-                            SchoolID = row["tdd_school_id"].ToString(),
+                           // SchoolID = row["tdd_school_id"].ToString(),
                             Name = row["tdd_name"].ToString(),
                             PhoneNo = row["tdd_phone_no"].ToString(),
+                            LicenseNo = row["tdd_license_no"].ToString(),
+                            LicenseType = row["tdd_license_type"].ToString(),
                             Status = row["tdd_status"].ToString(),
                             CreateDate = row["tdd_create_date"].ToString(),
                             CreatedBy = row["tdd_created_by"].ToString(),
@@ -142,30 +146,30 @@ namespace TrackMateBackend.DataAccess
             return result;
         }
 
-        public Response UpdateDriverStatus(DriverDetailsRequestApi requestAPI)
-        {
-            Response result = new Response();
-            requestAPI.ActionType = "5"; // Status Update
+        //public Response UpdateDriverStatus(DriverDetailsRequestApi requestAPI)
+        //{
+        //    Response result = new Response();
+        //    requestAPI.ActionType = "5"; // Status Update
 
-            using (var dbConnect = new DBconnect())
-            {
-                ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
+        //    using (var dbConnect = new DBconnect())
+        //    {
+        //        ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
-                if (res.ResultStatusCode == "1")
-                {
-                    result.StatusCode = 200;
-                    result.Result = "Driver status updated successfully!";
-                }
-                else
-                {
-                    LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
-                    result.StatusCode = 500;
-                    result.Result = res.ExceptionMessage;
-                }
-            }
+        //        if (res.ResultStatusCode == "1")
+        //        {
+        //            result.StatusCode = 200;
+        //            result.Result = "Driver status updated successfully!";
+        //        }
+        //        else
+        //        {
+        //            LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
+        //            result.StatusCode = 500;
+        //            result.Result = res.ExceptionMessage;
+        //        }
+        //    }
 
-            return result;
-        }
+        //    return result;
+        //}
     }
 }
 
