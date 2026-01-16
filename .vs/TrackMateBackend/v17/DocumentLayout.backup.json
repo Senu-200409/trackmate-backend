@@ -3,16 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\controllers\\driverdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\driverdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\studentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\studentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\schooldetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\schooldetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\parentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\parentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\ownerdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\ownerdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\notificationdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\notificationdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\driverdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\driverdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\devicedetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\devicedetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\busdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\busdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\dataaccess\\daschooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\dataaccess\\daschooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\controllers\\schooldetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\schooldetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\interfaces\\ischooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\interfaces\\ischooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\schooldetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\schooldetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|c:\\users\\senul\\desktop\\office assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\driverdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\driverdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\dataaccess\\dadriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\dataaccess\\dadriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\controllers\\driverdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\driverdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\busdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,40 +75,8 @@
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\busdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|c:\\users\\senul\\desktop\\office assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\dataaccess\\dadriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\dataaccess\\dadriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\driverdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\driverdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\driverdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\driverdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\interfaces\\idriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\interfaces\\idriverdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\dataaccess\\daschooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\dataaccess\\daschooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\interfaces\\ischooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\interfaces\\ischooldetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\schooldetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\schooldetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\devicedetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\devicedetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\busdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\busdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\databaseconnectivity\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -163,10 +183,6 @@
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\studentdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\interfaces\\istudentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\interfaces\\istudentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -223,24 +239,8 @@
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\devicedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\studentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\studentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\routesdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\routesdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\parentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\parentdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\ownerdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\ownerdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\notificationdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\notificationdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -250,88 +250,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDriverDetails.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IDriverDetails.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IDriverDetails.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IDriverDetails.cs",
-              "RelativeToolTip": "WebApplication1\\Interfaces\\IDriverDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:46:32.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DriverDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\DriverDetailsController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DriverDetailsController.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\DriverDetailsController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\DriverDetailsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T00:03:44.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DADriverDetails.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DADriverDetails.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DADriverDetails.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DADriverDetails.cs",
-              "RelativeToolTip": "WebApplication1\\DataAccess\\DADriverDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAABNAAAAAAAAAA==",
+              "Title": "NotificationDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T12:45:10.983Z",
+              "WhenOpened": "2025-11-19T13:31:46.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BusDetailsController.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\BusDetailsController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BusDetailsController.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\BusDetailsController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\BusDetailsController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA9wB4AAAAsAAAAAAAAAA==",
+              "Title": "OwnerDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:17:13.352Z",
+              "WhenOpened": "2025-11-19T12:46:47.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BusDetailsModel.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\BusDetailsModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\BusDetailsModel.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\BusDetailsModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\BusDetailsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "ParentDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:54:42.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SchoolDetailsModel.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\SchoolDetailsModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\SchoolDetailsModel.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\SchoolDetailsModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\SchoolDetailsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:53:22.552Z",
+              "WhenOpened": "2025-11-19T13:50:19.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "StudentDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:57:08.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SchoolDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:54:52.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:48:37.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeviceDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:01:04.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BusDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:03:57.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DriverDetailsRequestApi.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:28:52.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SchoolDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\SchoolDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\SchoolDetailsController.cs",
@@ -344,43 +384,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DriverDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\DriverDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:28:52.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DriverDetailsModel.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\DriverDetailsModel.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\DriverDetailsModel.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\DriverDetailsModel.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\DriverDetailsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:26:57.531Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "DASchoolDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DASchoolDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DASchoolDetails.cs",
               "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DASchoolDetails.cs",
               "RelativeToolTip": "WebApplication1\\DataAccess\\DASchoolDetails.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAwwI0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T19:50:10.322Z"
+              "WhenOpened": "2025-11-22T19:50:10.322Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ISchoolDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\ISchoolDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\ISchoolDetails.cs",
@@ -388,47 +405,98 @@
               "RelativeToolTip": "WebApplication1\\Interfaces\\ISchoolDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:47:16.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SchoolDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\SchoolDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:54:52.326Z"
+              "WhenOpened": "2025-11-19T13:47:16.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "DeviceDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\DeviceDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Title": "SchoolDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\SchoolDetailsModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\SchoolDetailsModel.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\SchoolDetailsModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\SchoolDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T14:01:04.295Z"
+              "WhenOpened": "2025-11-19T13:53:22.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "BusDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\BusDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Title": "DriverDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\DriverDetailsModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\DriverDetailsModel.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\DriverDetailsModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\DriverDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:03:57.368Z"
+              "WhenOpened": "2025-11-19T13:26:57.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BusDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\BusDetailsModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\BusDetailsModel.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\BusDetailsModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\BusDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:54:42.083Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "DADriverDetails.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DADriverDetails.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DADriverDetails.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DADriverDetails.cs",
+              "RelativeToolTip": "WebApplication1\\DataAccess\\DADriverDetails.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowEYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T12:45:10.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DriverDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\DriverDetailsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DriverDetailsController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\DriverDetailsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\DriverDetailsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T00:03:44.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BusDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\BusDetailsController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\BusDetailsController.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\BusDetailsController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\BusDetailsController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA9wB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:17:13.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDriverDetails.cs",
+              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IDriverDetails.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IDriverDetails.cs",
+              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IDriverDetails.cs",
+              "RelativeToolTip": "WebApplication1\\Interfaces\\IDriverDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T13:46:32.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DBConnect.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataBaseConnectivity\\DBConnect.cs",
@@ -440,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "DABusDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DABusDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DABusDetails.cs",
@@ -452,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "IOwnerDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IOwnerDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IOwnerDetails.cs",
@@ -464,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "IBusDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IBusDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IBusDetails.cs",
@@ -476,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "ProcedureDBModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\ProcedureDBModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ProcedureDBModel.cs",
@@ -488,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "INotificationDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\INotificationDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\INotificationDetails.cs",
@@ -500,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "IDeviceDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IDeviceDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IDeviceDetails.cs",
@@ -512,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "UnityConfig.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\App_Start\\UnityConfig.cs",
               "RelativeDocumentMoniker": "WebApplication1\\App_Start\\UnityConfig.cs",
@@ -524,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "LogHandler.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Static\\LogHandler.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Static\\LogHandler.cs",
@@ -536,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "WebApplication1\\App_Start\\BundleConfig.cs",
@@ -548,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
@@ -560,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "DeviceDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\DeviceDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\DeviceDetailsController.cs",
@@ -572,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Global.asax.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Global.asax.cs",
@@ -584,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "ParentDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\ParentDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ParentDetailsController.cs",
@@ -596,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "DADeviceDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DADeviceDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DADeviceDetails.cs",
@@ -608,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Web.config",
               "RelativeDocumentMoniker": "WebApplication1\\Web.config",
@@ -621,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "RoutesDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\RoutesDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\RoutesDetailsController.cs",
@@ -633,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "OwnerDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\OwnerDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\OwnerDetailsController.cs",
@@ -645,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "WebApplication1\\App_Start\\RouteConfig.cs",
@@ -657,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "WebApplication1\\App_Start\\FilterConfig.cs",
@@ -669,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "NotificationDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\NotificationDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\NotificationDetailsController.cs",
@@ -681,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "DAUserDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DAUserDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAUserDetails.cs",
@@ -693,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "IUserDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IUserDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IUserDetails.cs",
@@ -705,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "DAStudentDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DAStudentDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAStudentDetails.cs",
@@ -717,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "StudentDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\StudentDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentDetailsController.cs",
@@ -729,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "UserDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Controllers\\UserDetailsController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UserDetailsController.cs",
@@ -741,19 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UserDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:48:37.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "IStudentDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IStudentDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IStudentDetails.cs",
@@ -765,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "UserDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\UserDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\UserDetailsModel.cs",
@@ -777,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "StudentDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\StudentDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\StudentDetailsModel.cs",
@@ -789,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "RoutesDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RoutesDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RoutesDetailsModel.cs",
@@ -801,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "DARoutesDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DARoutesDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DARoutesDetails.cs",
@@ -813,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "IRoutesDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IRoutesDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IRoutesDetails.cs",
@@ -825,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "DAParentDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DAParentDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAParentDetails.cs",
@@ -837,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "IParentDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Interfaces\\IParentDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Interfaces\\IParentDetails.cs",
@@ -849,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "ParentDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\ParentDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\ParentDetailsModel.cs",
@@ -861,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "DAOwnerDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DAOwnerDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DAOwnerDetails.cs",
@@ -873,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "OwnerDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\OwnerDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\OwnerDetailsModel.cs",
@@ -885,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "DANotificationDetails.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\DataAccess\\DANotificationDetails.cs",
               "RelativeDocumentMoniker": "WebApplication1\\DataAccess\\DANotificationDetails.cs",
@@ -897,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "NotificationDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\NotificationDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\NotificationDetailsModel.cs",
@@ -909,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "DeviceDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\DeviceDetailsModel.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\DeviceDetailsModel.cs",
@@ -921,19 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "StudentDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\StudentDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:57:08.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "RoutesDetailsRequestApi.cs",
               "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\RoutesDetailsRequestApi.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\RoutesDetailsRequestApi.cs",
@@ -942,42 +986,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T13:53:16.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ParentDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\ParentDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:50:19.763Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "OwnerDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\OwnerDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:46:47.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "NotificationDetailsRequestApi.cs",
-              "DocumentMoniker": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
-              "ToolTip": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\NotificationDetailsRequestApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T13:31:46.156Z"
             }
           ]
         }

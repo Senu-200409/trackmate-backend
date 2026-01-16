@@ -3,3 +3,5 @@
 01/01/0001 00:00:00 ~ GetAllDriverDetails ~ Procedure or function DriverManagement has too many arguments specified.;
 01/01/0001 00:00:00 ~ GetAllDriverDetails ~ Procedure or function DriverManagement has too many arguments specified.;
 01/01/0001 00:00:00 ~ GetAllDriverDetails ~ Procedure or function DriverManagement has too many arguments specified.;
+01/01/0001 00:00:00 ~ GetAllSchoolDetails ~ Procedure or function SchoolManagement has too many arguments specified.;
+01/01/0001 00:00:00 ~ GetAllOwnerDetails ~ Procedure or function OwnerManagement has too many arguments specified.;
