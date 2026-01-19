@@ -84,7 +84,7 @@ namespace TrackMateBackend.DataAccess
                             Phone = row["tud_phone"].ToString(),
                             UserType = row["tud_user_type"].ToString(),
                             Status = row["tud_status"].ToString(),
-                            CreateDate = row["tud_create_date"].ToString(),
+                            CreatedDate = row["tud_created_date"].ToString(),
                             CreatedBy = row["tud_created_by"].ToString(),
                             UpdatedDate = row["tud_updated_date"].ToString(),
                             UpdatedBy = row["tud_updated_by"].ToString()
@@ -128,7 +128,7 @@ namespace TrackMateBackend.DataAccess
                             Phone = row["tud_phone"].ToString(),
                             UserType = row["tud_user_type"].ToString(),
                             Status = row["tud_status"].ToString(),
-                            CreateDate = row["tud_create_date"].ToString(),
+                            CreatedDate = row["tud_created_date"].ToString(),
                             CreatedBy = row["tud_created_by"].ToString(),
                             UpdatedDate = row["tud_updated_date"].ToString(),
                             UpdatedBy = row["tud_updated_by"].ToString()

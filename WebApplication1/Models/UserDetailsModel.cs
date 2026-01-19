@@ -12,7 +12,7 @@ namespace TrackMateBackend.Models
         public string Phone { get; set; }
         public string UserType { get; set; }
         public string Status { get; set; }
-        public string CreateDate { get; set; }
+        public string CreatedDate { get; set; }
         public string CreatedBy { get; set; }
         public string UpdatedDate { get; set; }
         public string UpdatedBy { get; set; }
