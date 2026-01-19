@@ -8,7 +8,7 @@ namespace TrackMateBackend.Models
     public class UserDetailsModel
     {
         public string UserID { get; set; }
-        public string RfidID { get; set; }
+        // public string RfidID { get; set; }
         public string Phone { get; set; }
         public string UserType { get; set; }
         public string Status { get; set; }
