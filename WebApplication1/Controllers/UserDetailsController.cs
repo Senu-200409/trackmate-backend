@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using TrackMateBackend.DataAccess;
 using TrackMateBackend.Interfaces;
+using TrackMateBackend.Models;
 using TrackMateBackend.Models.RequestApiModels;
 
 namespace TrackMateBackend.Controllers
@@ -28,13 +30,63 @@ namespace TrackMateBackend.Controllers
             return View();
         }
 
-        
+
+        //[HttpPost]
+        //public ActionResult RegisterUser(UserDetailsRequestApi requestAPI)
+        //{
+        //    var result = _userdetails.RegisterUser(requestAPI);
+        //    return Json(result, JsonRequestBehavior.AllowGet);
+        //}
+
         [HttpPost]
-        public ActionResult RegisterUser(UserDetailsRequestApi requestAPI)
+        public ActionResult RegisterUser(UserDetailsRequestApi requestAPI, HttpPostedFileBase file)
         {
-            var result = _userdetails.RegisterUser(requestAPI);
-            return Json(result, JsonRequestBehavior.AllowGet);
+            Response res = new Response();
+
+            try
+            {
+                //string imagePath = null;
+
+                // 1️⃣ Image upload
+                if (file != null && file.ContentLength > 0)
+                {
+                    string folderPath = @"C:\Users\senul\Desktop\Office Assignment\trackmate backend github\trackmate-backend\images";
+
+                    if (!Directory.Exists(folderPath))
+                        Directory.CreateDirectory(folderPath);
+
+                    string extension = Path.GetExtension(file.FileName).ToLower();
+                    string[] allowed = { ".jpg", ".jpeg", ".png" };
+
+                    if (!allowed.Contains(extension))
+                    {
+                        return Json(new { StatusCode = 400, Message = "Invalid image type" },
+                                    JsonRequestBehavior.AllowGet);
+                    }
+
+                    // phone / userid as filename
+                    string fileName = requestAPI.Phone + extension;
+                    string filePath = Path.Combine(folderPath, fileName);
+
+                    file.SaveAs(filePath);
+
+                    //imagePath = "/ProfileImages/" + fileName;
+                    //requestAPI.ProfileImagePath = imagePath;
+                    requestAPI.ProfileImage = "/ProfileImages/" + fileName;
+                }
+
+                // 2️⃣ Save user details (with image path)
+                res = _userdetails.RegisterUser(requestAPI);
+            }
+            catch (Exception ex)
+            {
+                res.StatusCode = 500;
+                res.Result = ex.Message;
+            }
+
+            return Json(res, JsonRequestBehavior.AllowGet);
         }
+
 
         [HttpPost]
         public ActionResult LoginUser(UserDetailsRequestApi requestAPI)
