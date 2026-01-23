@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|c:\\users\\senul\\desktop\\office assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|c:\\users\\senul\\desktop\\office assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|C:\\Users\\senul\\Desktop\\Office Assignment\\trackmate backend github\\trackmate-backend\\webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E0F93C3-747F-4920-B6C6-1FD3E9D314F3}|WebApplication1\\TrackMateBackend.csproj|solutionrelative:webapplication1\\models\\requestapimodels\\userdetailsrequestapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -274,8 +274,7 @@
               "RelativeToolTip": "WebApplication1\\Static\\LogHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T06:08:31.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T06:08:31.377Z"
             },
             {
               "$type": "Document",
@@ -287,8 +286,7 @@
               "RelativeToolTip": "WebApplication1\\Models\\RequestApiModels\\UserDetailsRequestApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:48:37.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T12:48:37.362Z"
             },
             {
               "$type": "Document",
@@ -337,8 +335,7 @@
               "RelativeToolTip": "WebApplication1\\Models\\UserDetailsModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAIwA4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:48:05.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-19T12:48:05.295Z"
             },
             {
               "$type": "Document",
