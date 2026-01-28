@@ -21,7 +21,7 @@ namespace TrackMateBackend
             container.RegisterType<INotificationDetails, DANotificationDetails>();
             container.RegisterType<IOwnerDetails, DAOwnerDetails>();
             container.RegisterType<IParentDetails, DAParentDetails>();
-            container.RegisterType<IRoutesDetails, DARoutesDetails>();
+            ///container.RegisterType<IRoutesDetails, DARoutesDetails>();
             container.RegisterType<ISchoolDetails, DASchoolDetails>();
             container.RegisterType<IStudentDetails, DAStudentDetails>();
             container.RegisterType<IUserDetails, DAUserDetails>();
