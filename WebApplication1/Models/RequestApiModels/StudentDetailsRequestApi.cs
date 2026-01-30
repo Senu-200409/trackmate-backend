@@ -16,7 +16,7 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string RfidID { get; set; }
         public string ParentID { get; set; }
         public string SchoolID { get; set; }
-        public string BarcodeScript { get; set; }
+      //  public string BarcodeScript { get; set; }
         public string NumberPlate { get; set; }
         public string Status { get; set; }
         //public string CreateDate { get; set; }

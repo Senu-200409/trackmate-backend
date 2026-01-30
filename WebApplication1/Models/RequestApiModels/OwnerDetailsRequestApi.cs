@@ -10,8 +10,8 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string Uid { get; set; }
         public string OwnerID { get; set; }
         public string UserID { get; set; }
-        public string OwnerName { get; set; }
-        public string PhoneNo { get; set; }
+        //public string OwnerName { get; set; }
+        //public string PhoneNo { get; set; }
         public string CompanyName { get; set; }
         public string Status { get; set; }
         //public string CreateDate { get; set; }

@@ -10,8 +10,8 @@ namespace TrackMateBackend.Models
         public string DriverID { get; set; }
         public string UserID { get; set; }
         // public string SchoolID { get; set; }
-        public string Name { get; set; }
-        public string PhoneNo { get; set; }
+        //public string Name { get; set; }
+        //public string PhoneNo { get; set; }
         public string LicenseNo { get; set; }     
         public string LicenseType { get; set; }
         public string Status { get; set; }

@@ -16,6 +16,7 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string InsuranceExpiry { get; set; }
         public string Latitude { get; set; }
         public string Longitude { get; set; }
+        public string CurrentStatus { get; set; }
         public string Status { get; set; }
         //public string CreateDate { get; set; }
         //public string CreatedBy { get; set; }

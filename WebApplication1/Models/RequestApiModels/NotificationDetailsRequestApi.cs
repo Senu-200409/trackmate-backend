@@ -12,6 +12,7 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string SentDate { get; set; }
         public string ParentID { get; set; }
         public string OwnerID { get; set; }
+        public string Message { get; set; }
         public string Status { get; set; }
         //public string CreateDate { get; set; }
         //public string CreatedBy { get; set; }
