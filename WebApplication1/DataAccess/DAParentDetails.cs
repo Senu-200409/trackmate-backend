@@ -55,12 +55,13 @@ namespace TrackMateBackend.DataAccess
                         {
 
                             ParentID = row["tpd_parent_id"].ToString(),
-                            Name = row["tpd_name"].ToString(),
+                           // Name = row["tpd_name"].ToString(),
                             UserID = row["tpd_user_id"].ToString(),
                            // SchoolID = row["tpd_school_id"].ToString(),
                             Address = row["tpd_address"].ToString(),
-                            ContactNo = row["tpd_contact_no"].ToString(),
+                           // ContactNo = row["tpd_contact_no"].ToString(),
                             ContactNo2 = row["tpd_contact_no2"].ToString(),
+                            Role = row["tpd_role"].ToString(),
                             Status = row["tpd_status"].ToString(),
                             CreateDate = row["tpd_create_date"].ToString(),
                             CreatedBy = row["tpd_created_by"].ToString(),
@@ -102,12 +103,13 @@ namespace TrackMateBackend.DataAccess
                         ParentDetailsModel Parent = new ParentDetailsModel
                         {
                             ParentID = row["tpd_parent_id"].ToString(),
-                            Name = row["tpd_name"].ToString(),
+                           // Name = row["tpd_name"].ToString(),
                             UserID = row["tpd_user_id"].ToString(),
                            // SchoolID = row["tpd_school_id"].ToString(),
                             Address = row["tpd_address"].ToString(),
-                            ContactNo = row["tpd_contact_no"].ToString(),
+                           // ContactNo = row["tpd_contact_no"].ToString(),
                             ContactNo2 = row["tpd_contact_no2"].ToString(),
+                            Role = row["tpd_role"].ToString(),
                             Status = row["tpd_status"].ToString(),
                             CreateDate = row["tpd_create_date"].ToString(),
                             CreatedBy = row["tpd_created_by"].ToString(),

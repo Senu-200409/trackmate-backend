@@ -11,6 +11,7 @@ namespace TrackMateBackend.Models
         public string UserID { get; set; }
         //public string OwnerName { get; set; }
         //public string PhoneNo { get; set; }
+        public string CompanyName { get; set; }
         public string Status { get; set; }
         public string CreateDate { get; set; }
         public string CreatedBy { get; set; }

@@ -56,8 +56,9 @@ namespace TrackMateBackend.DataAccess
 
                             OwnerID = row["tod_owner_id"].ToString(),
                             UserID = row["tod_user_id"].ToString(),
-                            OwnerName = row["tod_owner_name"].ToString(),
-                            PhoneNo = row["tod_phone_no"].ToString(),
+                           // OwnerName = row["tod_owner_name"].ToString(),
+                           // PhoneNo = row["tod_phone_no"].ToString(),
+                            CompanyName = row["tod_company_name"].ToString(),
                             Status = row["tod_status"].ToString(),
                             CreateDate = row["tod_create_date"].ToString(),
                             CreatedBy = row["tod_created_by"].ToString(),
@@ -100,8 +101,9 @@ namespace TrackMateBackend.DataAccess
                         {
                             OwnerID = row["tod_owner_id"].ToString(),
                             UserID = row["tod_user_id"].ToString(),
-                            OwnerName = row["tod_owner_name"].ToString(),
-                            PhoneNo = row["tod_phone_no"].ToString(),
+                            // OwnerName = row["tod_owner_name"].ToString(),
+                            // PhoneNo = row["tod_phone_no"].ToString(),
+                            CompanyName = row["tod_company_name"].ToString(),
                             Status = row["tod_status"].ToString(),
                             CreateDate = row["tod_create_date"].ToString(),
                             CreatedBy = row["tod_created_by"].ToString(),
