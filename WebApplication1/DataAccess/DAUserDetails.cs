@@ -24,20 +24,25 @@ namespace TrackMateBackend.DataAccess
             {
                 ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
-                if (res.ResultStatusCode == "1")
+                if (res.ResultStatusCode == "1" && res.UID.HasValue)
                 {
                     result.StatusCode = 200;
                     result.Result = "User registered successfully!";
+                    result.ResultSet = new
+                    {
+                        UID = res.UID.Value
+                    };
                 }
                 else
                 {
                     result.StatusCode = 500;
-                    result.Result = res.ExceptionMessage;
+                    result.Result = res.ExceptionMessage ?? "User registered but UserID not returned from server";
                 }
             }
 
             return result;
         }
+
 
         public Response LoginUser(UserDetailsRequestApi requestAPI)
         {
