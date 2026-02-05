@@ -20,3 +20,31 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string ProfileImage { get; set; }
     }
 }
+
+
+//namespace TrackMateBackend.Models.RequestApiModels
+//{
+//    public class UserDetailsRequestAPI
+//    {
+//        public string ActionType { get; set; }
+//        public int? UserID { get; set; }
+//        public string Phone { get; set; }
+//        public string UserType { get; set; }
+//        public string Status { get; set; }
+//        public string UserName { get; set; }
+//        public string ProfileImage { get; set; }
+//    }
+//}
+
+
+
+//namespace TrackMateBackend.Models.RequestApiModels
+//{
+//    public class UserDetailsRequestAPI : RequestAPI
+//    {
+//        public string Phone { get; set; }
+//        public string UserType { get; set; }    // O, D, P
+//        public string UserName { get; set; }
+//        public string ProfileImage { get; set; }
+//    }
+//}

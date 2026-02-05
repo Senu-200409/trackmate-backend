@@ -24,4 +24,13 @@ namespace TrackMateBackend.Models
     }
 }
 
-    
+
+//namespace TrackMateBackend.Models.RequestApiModels
+//{
+//    public class RequestAPI
+//    {
+//        public string ActionType { get; set; }   // For procedure action
+//        public string UserID { get; set; }       // string type for consistency
+//        public string Status { get; set; }       // A/I/P
+//    }
+//}

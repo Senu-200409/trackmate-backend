@@ -206,6 +206,181 @@ namespace TrackMateBackend.DataAccess
 
             return result;
         }
+
+        public Response SendOtp(UserDetailsRequestApi requestAPI)
+        {
+            Response response = new Response();
+            requestAPI.ActionType = "2";
+
+            using (var db = new DBconnect())
+            {
+                var res = db.ProcedureRead(requestAPI, ProcedureName);
+
+                // All string comparisons
+                if (res.ResultStatusCode != "1" || res.ResultDataTable == null || res.ResultDataTable.Rows.Count == 0)
+                {
+                    response.StatusCode = 404;
+                    response.Result = "User not found or inactive.";
+                    return response;
+                }
+            }
+
+            string otp = new Random().Next(100000, 999999).ToString();
+            string url = $"https://esystems.cdl.lk/Backend/SMSGateway/api/SMS/DTSSendMessage?mobileNo={requestAPI.Phone}&message=Your OTP is {otp}";
+
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                client.GetAsync(url).Wait();
+            }
+
+            response.StatusCode = 200;
+            response.Result = "OTP sent successfully.";
+            response.ResultSet = otp;
+
+            return response;
+        }
+
+
     }
 }
-   
+
+//using System;
+//using TrackMateBackend.Database_Layer;
+//using TrackMateBackend.Interfaces;
+//using TrackMateBackend.Models;
+//using TrackMateBackend.Models.RequestApiModels;
+
+//namespace TrackMateBackend.DataAccess
+//{
+//    public class DAUserDetails : IUserDetails
+//    {
+//        private readonly string ProcedureName = "UserManagement";
+
+//        public Response RegisterUser(UserDetailsRequestAPI request)
+//        {
+//            request.ActionType = "1";
+//            return Execute(request, "User registered successfully.");
+//        }
+
+//        public Response SendOtp(UserDetailsRequestAPI request)
+//        {
+//            Response response = new Response();
+//            request.ActionType = "2";
+
+//            using (var db = new DBconnect())
+//            {
+//                var res = db.ProcedureRead(request, ProcedureName);
+
+//                // All string comparisons
+//                if (res.ResultStatusCode != "1" || res.ResultDataTable == null || res.ResultDataTable.Rows.Count == 0)
+//                {
+//                    response.StatusCode = 404;
+//                    response.Result = "User not found or inactive.";
+//                    return response;
+//                }
+//            }
+
+//            string otp = new Random().Next(100000, 999999).ToString();
+//            string url = $"https://esystems.cdl.lk/Backend/SMSGateway/api/SMS/DTSSendMessage?mobileNo={request.Phone}&message=Your OTP is {otp}";
+
+//            using (var client = new System.Net.Http.HttpClient())
+//            {
+//                client.GetAsync(url).Wait();
+//            }
+
+//            response.StatusCode = 200;
+//            response.Result = "OTP sent successfully.";
+//            response.ResultSet = otp;
+
+//            return response;
+//        }
+
+//        public Response GetUserById(UserDetailsRequestAPI request)
+//        {
+//            request.ActionType = "4";
+//            return ExecuteWithData(request);
+//        }
+
+//        public Response GetAllUsers(UserDetailsRequestAPI request)
+//        {
+//            request.ActionType = "3";
+//            return ExecuteWithData(request);
+//        }
+
+//        public Response UpdateUser(UserDetailsRequestAPI request)
+//        {
+//            request.ActionType = "5";
+//            return Execute(request, "User updated successfully.");
+//        }
+
+//        public Response DeleteUser(UserDetailsRequestAPI request)
+//        {
+//            request.ActionType = "6";
+//            request.Status = "I";
+//            return Execute(request, "User deleted successfully.");
+//        }
+
+//        private Response Execute(UserDetailsRequestAPI request, string successMessage)
+//        {
+//            Response response = new Response();
+
+//            try
+//            {
+//                using (var db = new DBconnect())
+//                {
+//                    var res = db.ProcedureRead(request, ProcedureName);
+
+//                    if (res.ResultStatusCode == "1") // ✅ string comparison
+//                    {
+//                        response.StatusCode = 200;
+//                        response.Result = successMessage;
+//                    }
+//                    else
+//                    {
+//                        response.StatusCode = 500;
+//                        response.Result = res.ExceptionMessage;
+//                    }
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                response.StatusCode = 500;
+//                response.Result = ex.Message;
+//            }
+
+//            return response;
+//        }
+
+//        private Response ExecuteWithData(UserDetailsRequestAPI request)
+//        {
+//            Response response = new Response();
+
+//            try
+//            {
+//                using (var db = new DBconnect())
+//                {
+//                    var res = db.ProcedureRead(request, ProcedureName);
+
+//                    if (res.ResultStatusCode == "1" && res.ResultDataTable != null) // ✅ string comparison
+//                    {
+//                        response.StatusCode = 200;
+//                        response.Result = "Data fetched successfully.";
+//                        response.ResultSet = res.ResultDataTable;
+//                    }
+//                    else
+//                    {
+//                        response.StatusCode = 404;
+//                        response.Result = "No data found.";
+//                    }
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                response.StatusCode = 500;
+//                response.Result = ex.Message;
+//            }
+
+//            return response;
+//        }
+//    }
+//}
