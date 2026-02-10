@@ -7,7 +7,7 @@ namespace TrackMateBackend.Models.RequestApiModels
 {
     public class NotificationDetailsRequestApi : RequestAPI
     {
-        public string Uid { get; set; }
+        public string Userid { get; set; }
         public string NotificationID { get; set; }
         public string SentDate { get; set; }
         public string ParentID { get; set; }

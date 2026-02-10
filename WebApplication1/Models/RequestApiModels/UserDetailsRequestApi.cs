@@ -12,6 +12,7 @@ namespace TrackMateBackend.Models.RequestApiModels
         public string Phone { get; set; }
         public string UserType { get; set; }
         public string UserName { get; set; }
+      //  public string Otp { get; set; }
         public string Status { get; set; }
         //public string CreatedDate { get; set; }
         //public string CreatedBy { get; set; }

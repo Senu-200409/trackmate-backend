@@ -12,6 +12,7 @@ namespace TrackMateBackend.Models
         public string Result { get; set; }
         public string ExceptionMessage { get; set; }
         public int? UID { get; set; }
+       // public int? @InsertedSchoolID { get; set; }
         public DataTable ResultDataTable { get; set; }
     }
 }

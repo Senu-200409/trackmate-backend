@@ -7,6 +7,7 @@ namespace TrackMateBackend.Models
 {
     public class SchoolDetailsModel
     {
+      //  public string Userid { get; set; }
         public string SchoolID { get; set; }
         public string SchoolName { get; set; }
         public string City { get; set; }

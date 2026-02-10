@@ -7,7 +7,7 @@ namespace TrackMateBackend.Models.RequestApiModels
 {
     public class DriverDetailsRequestApi : RequestAPI
     {
-        public string Uid { get; set; }
+      //  public string Uid { get; set; }
         public string DriverID { get; set; }
         public string UserID { get; set; }
         //public string DriverName { get; set; }

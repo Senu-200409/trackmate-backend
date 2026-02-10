@@ -7,7 +7,7 @@ namespace TrackMateBackend.Models.RequestApiModels
 {
     public class ParentDetailsRequestApi : RequestAPI
     {
-        public string Uid { get; set; }
+     //   public string Uid { get; set; }
         public string ParentID { get; set; }
         public string UserID { get; set; }
        // public string ParentName { get; set; }

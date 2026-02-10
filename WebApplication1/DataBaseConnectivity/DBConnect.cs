@@ -26,7 +26,12 @@ namespace TrackMateBackend.Database_Layer
               "MultipleActiveResultSets=true;" +
               "Max Pool Size=600;");
 
-            
+            //_connectionString = string.Format("Data Source=ALL-SER-LAP01\\DTSSQLSERVER; " +
+            //        "Initial Catalog=trackmate;" +
+            //        "User id=sa;" +
+            //        "Password=DSadmin@123; MultipleActiveResultSets=true;Max Pool Size=600;");
+
+
 
         }
 
@@ -108,6 +113,12 @@ namespace TrackMateBackend.Database_Layer
                 };
                 cmd.Parameters.Add(UIDParam);
 
+                //SqlParameter InsertedSchoolIDParam = new SqlParameter("@InsertedSchoolID", SqlDbType.Int)
+                //{
+                //    Direction = ParameterDirection.Output
+                //};
+                //cmd.Parameters.Add(InsertedSchoolIDParam);
+
                 // Map input properties
                 Type type = requestAPI.GetType();
                 var properties = type.GetProperties(BindingFlags.Public | BindingFlags.Instance);
@@ -143,6 +154,8 @@ namespace TrackMateBackend.Database_Layer
                         exceptionParam.Value.ToString() : null;
                     result.UID = UIDParam.Value != DBNull.Value ?
                         Convert.ToInt32(UIDParam.Value) : (int?)null;
+                    //result.UID = InsertedSchoolIDParam.Value != DBNull.Value ?
+                    //    Convert.ToInt32(InsertedSchoolIDParam.Value) : (int?)null;
                 }
                 catch (Exception ex)
                 {

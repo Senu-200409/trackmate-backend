@@ -7,7 +7,7 @@ namespace TrackMateBackend.Models.RequestApiModels
 {
     public class BusDetailsRequestApi : RequestAPI
     {
-        public string Uid { get; set; }
+        public string Userid { get; set; }
         public string NumberPlate { get; set; }
         public string DriverID { get; set; }
         public string Vehicle { get; set; }
