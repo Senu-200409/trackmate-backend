@@ -46,7 +46,8 @@ namespace TrackMateBackend.Controllers
             if (res.StatusCode != 200)
                 return Json(res, JsonRequestBehavior.AllowGet);
             {
-                string userId = ((dynamic)res.ResultSet).UserID.ToString();
+                string userId = ((dynamic)res.ResultSet).UID.ToString();
+
 
                 // DEBUG logs
                 System.Diagnostics.Debug.WriteLine($"File is null: {file == null}");
