@@ -37,3 +37,11 @@
 01/01/0001 00:00:00 ~ GetAllSchoolDetails ~ Procedure or function 'SchoolManagement' expects parameter '@InsertedSchoolID', which was not supplied.;
 01/01/0001 00:00:00 ~ GetAllDriverDetails ~ Procedure or function DriverManagement has too many arguments specified.;
 01/01/0001 00:00:00 ~ GetAllDriverDetails ~ Procedure or function DriverManagement has too many arguments specified.;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.
+A transaction that was started in a MARS batch is still active at the end of the batch. The transaction is rolled back.;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ Transaction count after EXECUTE indicates a mismatching number of BEGIN and COMMIT statements. Previous count = 0, current count = 1.
+A transaction that was started in a MARS batch is still active at the end of the batch. The transaction is rolled back.;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ ;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ ;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ ;
+01/01/0001 00:00:00 ~ UpdateUserStatus ~ ;

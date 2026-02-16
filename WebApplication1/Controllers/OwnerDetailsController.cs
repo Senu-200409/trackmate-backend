@@ -56,11 +56,11 @@ namespace TrackMateBackend.Controllers
             return Json(result, JsonRequestBehavior.AllowGet);
         }
 
-        [HttpPost]
-        public ActionResult UpdateOwnerStatus(OwnerDetailsRequestApi requestAPI)
-        {
-            var result = _ownerdetails.UpdateOwnerStatus(requestAPI);
-            return Json(result, JsonRequestBehavior.AllowGet);
-        }
+        //[HttpPost]
+        //public ActionResult UpdateOwnerStatus(OwnerDetailsRequestApi requestAPI)
+        //{
+        //    var result = _ownerdetails.UpdateOwnerStatus(requestAPI);
+        //    return Json(result, JsonRequestBehavior.AllowGet);
+        //}
     }
 }

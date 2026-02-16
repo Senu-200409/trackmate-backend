@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllOwnerDetails(OwnerDetailsRequestApi requestAPI);
         Response GetOwnerDetailsByOwnerID(OwnerDetailsRequestApi requestAPI);
         Response PutOwnerDetails(OwnerDetailsRequestApi requestAPI);
-        Response UpdateOwnerStatus(OwnerDetailsRequestApi requestAPI);
+       // Response UpdateOwnerStatus(OwnerDetailsRequestApi requestAPI);
     }
 }
