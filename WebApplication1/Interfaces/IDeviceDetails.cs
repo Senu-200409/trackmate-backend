@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllDeviceDetails(DeviceDetailsRequestApi requestAPI);
         Response GetDeviceDetailsByDeviceID(DeviceDetailsRequestApi requestAPI);
         Response PutDeviceDetails(DeviceDetailsRequestApi requestAPI);
-        Response UpdateDeviceStatus(DeviceDetailsRequestApi requestAPI);
+      //  Response UpdateDeviceStatus(DeviceDetailsRequestApi requestAPI);
     }
 }
