@@ -148,29 +148,29 @@ namespace TrackMateBackend.DataAccess
             return result;
         }
 
-        public Response UpdateParentStatus(ParentDetailsRequestApi requestAPI)
-        {
-            Response result = new Response();
-            requestAPI.ActionType = "5"; // Status Update
+        //public Response UpdateParentStatus(ParentDetailsRequestApi requestAPI)
+        //{
+        //    Response result = new Response();
+        //    requestAPI.ActionType = "5"; // Status Update
 
-            using (var dbConnect = new DBconnect())
-            {
-                ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
+        //    using (var dbConnect = new DBconnect())
+        //    {
+        //        ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
-                if (res.ResultStatusCode == "1")
-                {
-                    result.StatusCode = 200;
-                    result.Result = "Parent status updated successfully!";
-                }
-                else
-                {
-                    LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
-                    result.StatusCode = 500;
-                    result.Result = res.ExceptionMessage;
-                }
-            }
+        //        if (res.ResultStatusCode == "1")
+        //        {
+        //            result.StatusCode = 200;
+        //            result.Result = "Parent status updated successfully!";
+        //        }
+        //        else
+        //        {
+        //            LogHandler.WriteToLog(res.ExceptionMessage, System.Reflection.MethodBase.GetCurrentMethod().Name);
+        //            result.StatusCode = 500;
+        //            result.Result = res.ExceptionMessage;
+        //        }
+        //    }
 
-            return result;
-        }
+        //    return result;
+        //}
     }
 }

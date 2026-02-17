@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllParentDetails(ParentDetailsRequestApi requestAPI);
         Response GetParentDetailsByParentID(ParentDetailsRequestApi requestAPI);
         Response PutParentDetails(ParentDetailsRequestApi requestAPI);
-        Response UpdateParentStatus(ParentDetailsRequestApi requestAPI);
+       // Response UpdateParentStatus(ParentDetailsRequestApi requestAPI);
     }
 }

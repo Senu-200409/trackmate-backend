@@ -116,12 +116,12 @@ namespace TrackMateBackend.Controllers
 
 
 
-        [HttpPost]
-        public ActionResult LoginUser(UserDetailsRequestApi requestAPI)
-        {
-            var result = _userdetails.LoginUser(requestAPI);
-            return Json(result, JsonRequestBehavior.AllowGet);
-        }
+        //[HttpPost]
+        //public ActionResult LoginUser(UserDetailsRequestApi requestAPI)
+        //{
+        //    var result = _userdetails.LoginUser(requestAPI);
+        //    return Json(result, JsonRequestBehavior.AllowGet);
+        //}
 
 
         //[HttpGet]

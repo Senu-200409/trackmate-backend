@@ -55,11 +55,11 @@ namespace TrackMateBackend.Controllers
             return Json(result, JsonRequestBehavior.AllowGet);
         }
 
-        [HttpPost]
-        public ActionResult UpdateBusStatus(BusDetailsRequestApi requestAPI)
-        {
-            var result = _busdetails.UpdateBusStatus(requestAPI);
-            return Json(result, JsonRequestBehavior.AllowGet);
-        }
+        //[HttpPost]
+        //public ActionResult UpdateBusStatus(BusDetailsRequestApi requestAPI)
+        //{
+        //    var result = _busdetails.UpdateBusStatus(requestAPI);
+        //    return Json(result, JsonRequestBehavior.AllowGet);
+        //}
     }
 }

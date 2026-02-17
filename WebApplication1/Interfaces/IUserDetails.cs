@@ -11,7 +11,7 @@ namespace TrackMateBackend.Interfaces
     public interface IUserDetails
     {
         Response RegisterUser(UserDetailsRequestApi requestAPI);
-        Response LoginUser(UserDetailsRequestApi requestAPI);
+       // Response LoginUser(UserDetailsRequestApi requestAPI);
         Response GetAllUsers(UserDetailsRequestApi requestAPI);
         Response GetUserByUserID(UserDetailsRequestApi requestAPI);
         Response UpdateUser(UserDetailsRequestApi requestAPI);

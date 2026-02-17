@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllBusDetails(BusDetailsRequestApi requestAPI);
         Response GetBusDetailsByNumberplate(BusDetailsRequestApi requestAPI);
         Response PutBusDetails(BusDetailsRequestApi requestAPI);
-        Response UpdateBusStatus(BusDetailsRequestApi requestAPI);
+       // Response UpdateBusStatus(BusDetailsRequestApi requestAPI);
     }
 }
