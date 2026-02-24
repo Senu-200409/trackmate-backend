@@ -165,6 +165,7 @@
     <Compile Include="Controllers\NotificationDetailsController.cs" />
     <Compile Include="Controllers\OwnerDetailsController.cs" />
     <Compile Include="Controllers\ParentDetailsController.cs" />
+    <Compile Include="Controllers\RfidController.cs" />
     <Compile Include="Controllers\RoutesDetailsController.cs" />
     <Compile Include="Controllers\SchoolDetailsController.cs" />
     <Compile Include="Controllers\StudentDetailsController.cs" />
@@ -175,6 +176,7 @@
     <Compile Include="DataAccess\DANotificationDetails.cs" />
     <Compile Include="DataAccess\DAOwnerDetails.cs" />
     <Compile Include="DataAccess\DAParentDetails.cs" />
+    <Compile Include="DataAccess\DARfid.cs" />
     <Compile Include="DataAccess\DARoutesDetails.cs" />
     <Compile Include="DataAccess\DASchoolDetails.cs" />
     <Compile Include="DataAccess\DAStudentDetails.cs" />
@@ -189,6 +191,7 @@
     <Compile Include="Interfaces\INotificationDetails.cs" />
     <Compile Include="Interfaces\IOwnerDetails.cs" />
     <Compile Include="Interfaces\IParentDetails.cs" />
+    <Compile Include="Interfaces\IRfid.cs" />
     <Compile Include="Interfaces\IRoutesDetails.cs" />
     <Compile Include="Interfaces\ISchoolDetails.cs" />
     <Compile Include="Interfaces\IStudentDetails.cs" />
@@ -207,11 +210,13 @@
     <Compile Include="Models\RequestApiModels\NotificationDetailsRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\OwnerDetailsRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\ParentDetailsRequestApi.cs" />
+    <Compile Include="Models\RequestApiModels\RfidRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\RoutesDetailsRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\SchoolDetailsRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\StudentDetailsRequestApi.cs" />
     <Compile Include="Models\RequestApiModels\UserDetailsRequestApi.cs" />
     <Compile Include="Models\Response.cs" />
+    <Compile Include="Models\RfidModel.cs" />
     <Compile Include="Models\RoutesDetailsModel.cs" />
     <Compile Include="Models\SchoolDetailsModel.cs" />
     <Compile Include="Models\StudentDetailsModel.cs" />
@@ -281,6 +286,7 @@
     <Folder Include="Views\NotificationDetails\" />
     <Folder Include="Views\Owner\" />
     <Folder Include="Views\ParentDetails\" />
+    <Folder Include="Views\Rfid\" />
     <Folder Include="Views\RoutesDetails\" />
     <Folder Include="Views\SchoolDetails\" />
     <Folder Include="Views\School\" />

@@ -25,6 +25,7 @@ namespace TrackMateBackend
             container.RegisterType<ISchoolDetails, DASchoolDetails>();
             container.RegisterType<IStudentDetails, DAStudentDetails>();
             container.RegisterType<IUserDetails, DAUserDetails>();
+            container.RegisterType<IRfid, DARfid>();
 
             // Set the dependency resolver for MVC
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
