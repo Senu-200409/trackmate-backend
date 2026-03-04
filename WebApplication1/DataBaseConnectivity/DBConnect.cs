@@ -113,6 +113,12 @@ namespace TrackMateBackend.Database_Layer
                 };
                 cmd.Parameters.Add(UIDParam);
 
+                SqlParameter SIDParam = new SqlParameter("@SID", SqlDbType.Int)
+                {
+                    Direction = ParameterDirection.Output
+                };
+                cmd.Parameters.Add(SIDParam);
+
                 //SqlParameter InsertedSchoolIDParam = new SqlParameter("@InsertedSchoolID", SqlDbType.Int)
                 //{
                 //    Direction = ParameterDirection.Output
@@ -154,6 +160,8 @@ namespace TrackMateBackend.Database_Layer
                         exceptionParam.Value.ToString() : null;
                     result.UID = UIDParam.Value != DBNull.Value ?
                         Convert.ToInt32(UIDParam.Value) : (int?)null;
+                    result.SID = SIDParam.Value != DBNull.Value ?
+                        Convert.ToInt32(SIDParam.Value) : (int?)null;
                     //result.UID = InsertedSchoolIDParam.Value != DBNull.Value ?
                     //    Convert.ToInt32(InsertedSchoolIDParam.Value) : (int?)null;
                 }

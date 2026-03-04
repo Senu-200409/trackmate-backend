@@ -14,6 +14,6 @@ namespace TrackMateBackend.Interfaces
         Response GetAllNotificationDetails(NotificationDetailsRequestApi requestAPI);
         Response GetNotificationDetailsByNotificationID(NotificationDetailsRequestApi requestAPI);
         Response PutNotificationDetails(NotificationDetailsRequestApi requestAPI);
-        Response UpdateNotificationStatus(NotificationDetailsRequestApi requestAPI);
+       // Response UpdateNotificationStatus(NotificationDetailsRequestApi requestAPI);
     }
 }

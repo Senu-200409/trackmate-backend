@@ -79,16 +79,103 @@ namespace TrackMateBackend.Controllers
         //    return Json(result, JsonRequestBehavior.AllowGet);
         //}
 
+        //[HttpPost]
+        //public ActionResult AddStudentDetails(StudentDetailsRequestApi requestAPI, HttpPostedFileBase file)
+        //{
+        //    var daStudent = new DAStudentDetails();
+        //    Response res = daStudent.AddStudentDetails(requestAPI);
+
+        //    if (res.StatusCode == 200)
+        //    {
+        //        //string studentId = ((dynamic)res.ResultSet).StudentID.ToString();
+
+        //        // ✅ Null check to prevent RuntimeBinderException
+        //        //if (res.ResultSet == null)
+        //        //{
+        //        //    return Json(new
+        //        //    {
+        //        //        StatusCode = 500,
+        //        //        Message = "Student inserted but ID not returned"
+        //        //    }, JsonRequestBehavior.AllowGet);
+        //        //}
+
+        //        // ✅ Get inserted StudentID safely
+        //        string studentId = res.ResultSet.ToString();
+
+
+        //        if (file != null && file.ContentLength > 0)
+        //        {
+        //            string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp" };
+        //            string extension = Path.GetExtension(file.FileName).ToLower();
+
+        //            if (!allowedExtensions.Contains(extension))
+        //            {
+        //                return Json(new { StatusCode = 400, Message = "Invalid image type" }, JsonRequestBehavior.AllowGet);
+        //            }
+
+        //            string folderPath = @"C:\Users\senul\Desktop\Office Assignment\trackmate backend github\trackmate-backend\images";
+        //            if (!Directory.Exists(folderPath))
+        //                Directory.CreateDirectory(folderPath);
+
+        //            // 🔥 Delete old images if exist (same as best practice)
+        //            var oldFiles = Directory.GetFiles(folderPath, studentId + ".*");
+        //            foreach (var old in oldFiles)
+        //                System.IO.File.Delete(old);
+
+        //            string fileName = studentId + extension;
+        //            string filePath = Path.Combine(folderPath, fileName);
+
+        //            file.SaveAs(filePath);
+
+        //            // 🔥 Update DB with image filename
+        //            requestAPI.StudentID = studentId;
+        //            requestAPI.Image = fileName;
+
+        //            daStudent.PutStudentDetails(requestAPI);
+        //        }
+
+        //        return Json(new
+        //        {
+        //            StatusCode = 200,
+        //            Message = "Student added successfully",
+        //            StudentID = studentId
+        //        }, JsonRequestBehavior.AllowGet);
+        //    }
+
+        //    return Json(res, JsonRequestBehavior.AllowGet);
+        //}
+
         [HttpPost]
         public ActionResult AddStudentDetails(StudentDetailsRequestApi requestAPI, HttpPostedFileBase file)
         {
             var daStudent = new DAStudentDetails();
             Response res = daStudent.AddStudentDetails(requestAPI);
 
+            // Check if insert was successful
             if (res.StatusCode == 200)
             {
-                string studentId = ((dynamic)res.ResultSet).StudentID.ToString();
+                // ✅ Safely get inserted StudentID from ResultSet
+                string studentId = null;
 
+                if (res.ResultSet != null)
+                {
+                    // Assuming ResultSet is ProcedureDBModel
+                    dynamic resultSet = res.ResultSet;
+                    if (resultSet.SID != null)
+                        studentId = resultSet.SID.ToString();
+                }
+
+                if (string.IsNullOrEmpty(studentId))
+                {
+                    // UID not returned from SP
+                    return Json(new
+                    {
+                        StatusCode = 500,
+                        Message = "Student inserted but ID not returned"
+                    }, JsonRequestBehavior.AllowGet);
+                }
+
+                // ✅ Handle file upload if provided
                 if (file != null && file.ContentLength > 0)
                 {
                     string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif", ".bmp" };
@@ -103,7 +190,7 @@ namespace TrackMateBackend.Controllers
                     if (!Directory.Exists(folderPath))
                         Directory.CreateDirectory(folderPath);
 
-                    // 🔥 Delete old images if exist (same as best practice)
+                    // Delete old images if exist
                     var oldFiles = Directory.GetFiles(folderPath, studentId + ".*");
                     foreach (var old in oldFiles)
                         System.IO.File.Delete(old);
@@ -113,13 +200,14 @@ namespace TrackMateBackend.Controllers
 
                     file.SaveAs(filePath);
 
-                    // 🔥 Update DB with image filename
+                    // Update DB with image filename
                     requestAPI.StudentID = studentId;
                     requestAPI.Image = fileName;
 
                     daStudent.PutStudentDetails(requestAPI);
                 }
 
+                // ✅ Return success
                 return Json(new
                 {
                     StatusCode = 200,
@@ -128,6 +216,7 @@ namespace TrackMateBackend.Controllers
                 }, JsonRequestBehavior.AllowGet);
             }
 
+            // Return SP error if insert failed
             return Json(res, JsonRequestBehavior.AllowGet);
         }
 

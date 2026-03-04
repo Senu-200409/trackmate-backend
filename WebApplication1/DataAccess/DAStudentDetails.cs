@@ -24,10 +24,14 @@ namespace TrackMateBackend.DataAccess
             {
                 ProcedureDBModel res = dbConnect.ProcedureRead(requestAPI, ProcedureName);
 
-                if (res.ResultStatusCode == "1")
+                if (res.ResultStatusCode == "1" && res.SID.HasValue)
                 {
                     result.StatusCode = 200;
                     result.Result = "Student added successfully!";
+                    result.ResultSet = new
+                    {
+                        SID = res.SID.Value
+                    };
                 }
                 else
                 {
@@ -109,7 +113,7 @@ namespace TrackMateBackend.DataAccess
                             Age = row["ttd_age"].ToString(),
                             Image = row["ttd_image"].ToString(),
                             Gender = row["ttd_gender"].ToString(),
-                            RfidID = row["ttc_rfid_id"].ToString(),
+                            RfidID = row["ttd_rfid_id"].ToString(),
                             ParentID = row["ttd_parent_id"].ToString(),
                             SchoolID = row["ttd_school_id"].ToString(),
                            // BarcodeScript = row["ttd_barcode_script"].ToString(),
